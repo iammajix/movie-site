@@ -1,0 +1,57 @@
+.movie {
+    position: absolute;
+    top: 0;
+    left:0;
+    transform: translate(35%,20%);
+}
+.left {
+    text-align: center;
+    color: black;
+
+}
+.caption {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(252, 252, 252) ;
+    opacity: 0.5;
+    position: relative;
+    border-radius: 30px;
+    padding: 10px 10px ;
+}
+.right p {
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    padding-left: 30px;
+    box-shadow:inset 10px 10px 100px 200px rgba(255, 255, 255, 0.25)
+}
+.right p:hover {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: rgb(8, 100, 180);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.9s;
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+}
+.right .caption a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+    font-weight: bold;
+    box-shadow:inset 10px 10px 100px 200px rgba(255, 255, 255, 0.25)
+}
+.background-images {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}

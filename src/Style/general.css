@@ -1,0 +1,192 @@
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+*,
+*:before ,
+*:after {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+p {
+    padding-bottom: 15px;
+}
+ul ,ol {
+    list-style: none;
+}
+h1 , h2 , h3 ,h4 , h5 ,h6 {
+    font-family: "Abril Fatface", arial, sans-serif;
+    color: aliceblue;
+}
+body {
+    direction: ltr;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    color: #838588;
+    font-weight: 200;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    overflow-x: hidden;
+    background-color: #212529;
+}
+.bg-grey {
+    background:#fafafa ;
+    border-top: 1px solid #8080801f;
+}
+.bg-green {
+    background: #65c0ba;
+}
+.bg-black {
+    background: #1a1a1a;
+}
+.bg-white {
+    background:#fafafa ;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.container-full {
+    width: 100%;
+    padding: 0 15px;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+.text-center {
+    text-align: center;
+}
+.align-center {
+    align-items: center;
+}
+.button {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 16px 36px;
+    color: #fff;
+    letter-spacing: 0.2em ;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-weight: 200;
+}
+.button:hover {
+    color : #000 ;
+    background: #fff;
+}
+.heading {
+    font-family: "Abril Fatface", arial, sans-serif;
+}
+.larg-h {
+    font-size: 7rem;
+    font-weight: 200;
+    line-height: 1;
+}
+.larg-ph {
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-35 {
+    margin-bottom: 35px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-45 {
+    margin-bottom: 45px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-70 {
+    margin-bottom: 70px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+[class^="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 36.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width:58.33% ;
+}
+.col-8 {
+    width:66.66% ;
+}
+.col-9 {
+    width:75% ;
+}
+.col-10 {
+    width:83.33% ;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+.section-padding {
+    padding-top: 12rem ;
+    padding-bottom: 15rem ;
+}
+.section-heading {
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+.box-padding {
+    padding: 10px 30px;
+}
+.full-width {
+    width: 100%;
+    height: a;
+}

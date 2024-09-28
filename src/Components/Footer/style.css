@@ -1,0 +1,27 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+ 
+.footer .right .menu ul li{
+    padding: 30px;
+    
+}
+.footer .right .menu ul li a {
+    color: #fff;
+}
+.footer .right .menu ul li a:hover {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.5s;
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+}   
